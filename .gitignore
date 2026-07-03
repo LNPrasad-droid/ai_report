@@ -1,0 +1,54 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+.env.*
+!.env.example
+!**/.env.example
+venv/
+.venv/
+.Python
+env/
+ENV/
+
+# Editor
+.vscode/
+.idea/
+*.sublime-workspace
+
+# Node
+node_modules/
+frontend/node_modules/
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Build
+dist/
+build/
+
+# Sensitive / local config
+backend/backend/firebase-service-account.json
+backend/*.env
+backend/.env
+
+# Chromadb
+.chromadb/
+
+# Coverage
+htmlcov/
+.coverage
+.coverage.*
+
+# pytest
+.pytest_cache/
+
+# Docker
+docker-compose.override.yml
+
